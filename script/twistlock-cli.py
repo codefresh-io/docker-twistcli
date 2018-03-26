@@ -79,7 +79,7 @@ def main(docker_command):
         with open('console.cer', 'a') as f:
             f.write(tlscacert)
             f.close()
-        options.append("--tlscacert '{}'".format(os.path.join(dir, 'console.cer')))
+        options.append("--tlscacert './console.cer'")
     if compliance_threshold:
         options.append("--compliance-threshold '{}'".format(compliance_threshold))
     if vulnerability_threshold:

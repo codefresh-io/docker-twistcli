@@ -11,7 +11,7 @@ RUN apk update && \
         git \
         nodejs && \
     pip install requests && \
-    npm install codefresh -g && \
+    npm install codefresh && \
     chmod +x /usr/local/bin/twistcli
 
 COPY script/twistlock-cli.py /twistlock-cli.py

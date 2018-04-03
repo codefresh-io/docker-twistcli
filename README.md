@@ -10,6 +10,10 @@ Twistlock Subscription - https://www.twistlock.com/
 
 ### Documentation:
 
+You need to download Twistlock packages from release page at Twistlock's website.
+
+You will need to extract the CLI `twistcli` from the tar.gz and place into this repositories' packages folder.
+
 Twistlock CLI: https://twistlock.desk.com/customer/en/portal/articles/2879128-scan-images-with-twistcli
 
 ## Local Usage
